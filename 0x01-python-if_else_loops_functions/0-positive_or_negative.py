@@ -1,15 +1,11 @@
 #!/usr/bin/python3
+import random
 
+number = random.randint(-10, 10)
 
-def remove_char_at(str, n):
-    copy = ''
-    if len(str) == 0:
-        return str
-    for i in range(len(str)):
-        if i != n:
-            copy += str[i]
-    return copy
-
-
-if __name__ == '__main__':
-    print(remove_char_at("Holberton School", 3))
+if number < 0:
+    print('{:d} is negative'.format(number))
+elif number > 0:
+    print('{:d} is positive'.format(number))
+else:
+    print('{:d} is zero'.format(number))
