@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+"""
+=============================
+Module with a class Myint
+=============================
+"""
 
 class MyInt(int):
     """Contrary rebel class of int"""
