@@ -1,4 +1,11 @@
 #!/usr/bin/python3
-REPLACE
-    return (0)
-print(REPLACE)
+"""
+===================================
+module with class BaseGeometry
+===================================
+"""
+
+
+class BaseGeometry:
+    """empty class"""
+    pass
