@@ -15,4 +15,4 @@ def list_division(my_list_1, my_list_2, list_length):
             quotient = 0
         finally:
             result_list.append(quotient)
-    return 
+    return result_list
